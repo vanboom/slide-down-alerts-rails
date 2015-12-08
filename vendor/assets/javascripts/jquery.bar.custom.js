@@ -12,7 +12,7 @@ $(function($) {
       $.removebar();
     }
 
-    // jbartimeout = setTimeout('$.removebar()', options.time);
+    jbartimeout = setTimeout('$.removebar()', options.time);
     var _message_span = $(document.createElement('span')).addClass('jbar-content').html(options.message);
     var _wrap_bar;
     (options.position == 'bottom') ? _wrap_bar = $(document.createElement('div')).addClass('jbar jbar-bottom') : _wrap_bar = $(document.createElement('div')).addClass('jbar jbar-top');
