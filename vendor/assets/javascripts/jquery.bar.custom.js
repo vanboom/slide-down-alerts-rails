@@ -4,7 +4,7 @@ $(function($) {
     var defaults = {
       position : 'top',
       removeButton : false,
-      time : 5000
+      time : 2000
     };
     options = $.extend(defaults, options);
 
